@@ -1,0 +1,28 @@
+{
+  "name": "nucamp-website",
+  "version": "1.0.0",
+  "description": "A fictional campsites review website.",
+  "source": "index.html",
+  "scripts": {
+    "start": "parcel --open",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GideonLane/Nucamp-Makeover.git"
+  },
+  "keywords": [],
+  "author": "Gideon Lane",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GideonLane/Nucamp-Makeover/issues"
+  },
+  "homepage": "https://github.com/GideonLane/Nucamp-Makeover#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.2.1",
+    "bootstrap": "^5.2.3"
+  }
+}
