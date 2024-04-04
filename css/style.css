@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Bevan:ital@0;1&family=Cabin+Condensed:wght@400;500;600;700&family=Lobster&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Grotesk:wght@300..700&display=swap');
+
+
+:root {
+    --darkest: #2f4858;
+    --darker: #46577a;
+    --dark: #766093;
+    --medium: #b06497;
+    --light: #e26a86;
+    --lighter: #ff8066;
+    --lightest: #e0dbdb;
+}
+body {
+    font-family: "Space Grotesk", sans-serif;
+}
+h1, h2, h3 {
+    font-family: "Space Grotesk", sans-serif;
+}
+h2 {
+    color: var(--darkest);
+}
+header {
+    padding: 30px;
+    background-image: linear-gradient(to right, var(--dark), var(--medium), var(--lighter));
+    color: var(--lightest);
+}
+header h2 {
+    color: var(--lightest);
+}
+footer {
+    background-image: linear-gradient( var(--lighter), var(--lightest));
+    padding: 20px 0;
+}
+.btn-reserve {
+    float: right;
+    
+}
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+.navbar {
+    background-color: var(--darker);
+}
+.tab-content {
+    border: 1px solid #DDD;
+    border-top: none;
+    padding: 10px;
+}
+.accordion-button {
+    background-color: #d3d3d3;
+  }
+  .modal-title {
+    width: 100%;
+    padding: 10px;
+  }
+  #options {
+    color: black;
+  }
+  #date {
+    color: black;
+  }
+.carousel-caption {
+    background-color: rgb(0, 0, 0, 0.5)
+}
+.carousel {
+    border: solid var(--dark);
+}
